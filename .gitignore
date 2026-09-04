@@ -1,0 +1,17 @@
+dist/
+.venv-dev/
+.pytest_cache/
+__pycache__/
+*.bak.*
+*.bak-*
+*.spec
+build/
+.DS_Store
+# secrets — never tracked
+.env
+*.key
+*.pem
+*.p8
+*.p12
+*-secret.*
+credentials*
